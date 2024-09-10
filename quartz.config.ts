@@ -14,18 +14,18 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    locale: "fa-IR",
+    baseUrl: "https://logical-developer.github.io/digital-garden",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Vazirmatn",
+        body: "Vazirmatn",
         code: "IBM Plex Mono",
-      },
+        },
       colors: {
         lightMode: {
           light: "#faf8f8",
