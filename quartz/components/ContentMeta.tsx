@@ -31,6 +31,14 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
       if (fileData.dates) {
         segments.push(formatDate(getDate(cfg, fileData)!, cfg.locale))
+        const created = formatDate(getDate(cfg, fileData)!, cfg.locale) 
+        const modifed = formatDate(fileData.dates?.modified, cfg.locale)
+        if (created == modifed) {
+          segments.push(` 📅 انتشار: ${created} `)
+        } else {
+          segments.push(` 📅 انتشار: ${created} `)
+          segments.push(` 🔄 به‌روزرسانی: ${modifed} `)
+        }
       }
 
       // Display reading time if enabled
