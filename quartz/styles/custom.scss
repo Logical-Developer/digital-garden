@@ -66,3 +66,233 @@ div.search.mobile-only {
 code { 
 	direction: ltr !important;
 }
+
+//  change footnote text
+h2#footnote-label{
+  visibility: hidden;
+}
+ 
+h2#footnote-label::after{
+  content: "پانوشت‌ها";
+  visibility: visible;
+  display: block;
+}
+// 
+
+// change body
+.content-meta>span {
+  background-color: var(--lightgray);
+  border-radius: 4px;
+  padding: 1px 6px 1px 6px;
+  font-size: 0.9em;
+}
+
+.content-meta {
+  color: var(--darkgray);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+// Custom Footer
+footer {
+  opacity: 1;
+}
+
+.new-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.group1 {
+  text-align: right;
+  display: flex;
+  gap: 25px;
+}
+
+.group2 {
+  text-align: left;
+  display: flex;
+  gap: 25px;
+}
+
+.footer-link {
+  display: inline-block;
+  width: 1.3em;
+  height: 1.3em;
+}
+
+.footer-svg {
+  opacity: 0.65;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  transition: scale .3s ease;
+}
+
+.footer-svg:hover {
+  filter: grayscale(0%);
+  scale: 1.1;
+  opacity: 1;
+}
+// /Custom Footer
+
+// فهرست مطالب
+.toc {
+  border-radius: 5px;
+  border: 1px solid var(--lightgray);
+  padding: 12px; 
+  font-size: 0.9rem;
+  background-color: #80808017;
+}
+
+#toc-content ul {
+  max-height: 360px;
+}
+
+#toc-content ul li a {
+  margin-right: -2px !important;
+}
+
+
+#toc-content .depth-0 {
+  list-style: disc;
+  list-style-position: inside;
+
+}
+
+#toc-content .depth-1 {
+  padding: 0px !important;
+  padding-right: 1rem !important;
+  list-style: circle;
+  list-style-position: inside;
+}
+
+#toc-content .depth-2 {
+  padding: 0px !important;
+  padding-right: 2rem !important;
+}
+
+#toc-content .depth-3 {
+  padding: 0px !important;
+  padding-right: 3rem !important;
+}
+
+#toc-content ul>li>a {
+  margin-right: -12px;
+  opacity: .45;
+}
+
+
+// بک لینک
+.backlinks>ul {
+  border-radius: 5px;
+  border: 1px solid var(--lightgray);
+  list-style: disc;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 0.95rem;
+  background-color: #80808017;
+  max-height: 230px;
+}
+
+ul.overflow:after,ol.overflow:after {
+  display: none;
+}
+
+// Code Block
+pre {
+	background: #afafaf1a;
+}
+ 
+pre>code {
+	overflow-x: auto;
+}
+ 
+code {
+	direction: ltr !important;
+	font-family: var(--bodyFont);
+}
+// /Code Block
+
+
+// Custom Diagram
+.mermaid {
+	direction: rtl !important;
+}
+ 
+pre:has(>code.mermaid) {
+	background-color: transparent;
+}
+ 
+.nodeLabel {
+	font-family: var(--bodyFont);
+}
+ 
+pre:has(>code.mermaid) .clipboard-button {
+	display: none;
+}
+// /Custom Diagram
+
+
+// button Style
+.my-button {
+	background-color: var(--tertiary);
+	color: white;
+	padding: 8px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	font-family: var(--bodyFont);
+	font-size: 1em;
+}  
+ 
+.my-button:hover {
+	background-color: var(--secondary);
+}
+// /button Style
+
+body {
+	font-size: 1.1em;
+}
+ 
+p {
+	line-height: 2rem;
+} 
+ 
+li {
+	line-height: 2rem; 
+}
+ 
+sup {
+vertical-align: middle; //اگه توی متن از پانوشت استفاده شده باشه باعث میشه فاصله بین خطوط به هم نریزه
+}
+ 
+h2 {
+	font-size: 1.6rem;
+	margin-top: 1rem;
+	margin-bottom: -0.2rem;
+	border-bottom: 1px solid var(--lightgray);
+	padding-bottom: 0.2em;
+}
+ 
+h3 {
+	font-size: 1.30rem;
+	margin-top: 1rem;
+	margin-bottom: -0.8rem;
+}
+ 
+h4,
+h5,
+h6 {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-bottom: -0.8rem;
+}
+
+
+// ------------------------------------------------------------
+

@@ -44,6 +44,13 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         }
       }
 
+      // My custom code : Add Status single page
+
+      const status = fileData.frontmatter?.status || "نامشخص";
+      if (status !== "نامشخص") {
+      segments.push(` ${status} `)
+      }
+
       // Display reading time if enabled
       if (options.showReadingTime) {
         const { minutes, words: _words } = readingTime(text)

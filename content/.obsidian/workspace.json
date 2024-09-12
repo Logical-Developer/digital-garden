@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "linux/test.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "linux/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "linux/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "linux/test.md"
               }
             }
           }
@@ -149,12 +149,13 @@
   },
   "active": "864d09e06eebb4cd",
   "lastOpenFiles": [
+    "linux/index.md",
+    "900 template/Note Template.md",
+    "index.md",
     "wp/wp1.md",
     "wp/index.md",
-    "linux/index.md",
-    "index.md",
-    "linux/test.md",
     "linux/wordpress on ubuntu.md",
+    "linux/test.md",
     "111.md",
     "personal development",
     "php",

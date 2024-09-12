@@ -22,7 +22,10 @@ function boolToStringBool(b: boolean): string {
 }
 
 export default ((opts: Options) => {
-  const Comments: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
+  const Comments: QuartzComponent = ({ displayClass, cfg, fileData }: QuartzComponentProps) => {
+    if (fileData.slug === "index") {
+      return <></>
+    }
     return (
       <div
         class={classNames(displayClass, "giscus")}
