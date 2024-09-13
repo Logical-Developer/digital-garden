@@ -150,7 +150,8 @@ EmbededCover
 
 ### تصویر
 محلی
-![[calendar2.png | 250]]
+
+![[logo1.jpg| 250]]
 
 خارجی
 
