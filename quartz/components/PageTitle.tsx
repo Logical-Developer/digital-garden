@@ -8,13 +8,11 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const title = cfg?.pageTitle ?? i18n(cfg.locale).propertyDefaults.title
   const baseDir = pathToRoot(fileData.slug!)
   const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
-  const aaa = cfg.baseUrl
   return (
     <h1 class={classNames(displayClass, "page-title")}>
-      <a href={aaa}>
-      sss
-        {/* <img src= ""></img> */}
-      {/* {title} */}
+      <a href="">
+        <img src= "../asset/img/logo1.jpg"></img>
+      {title}
       </a>
 </h1>
   )
