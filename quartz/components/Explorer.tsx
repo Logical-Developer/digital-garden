@@ -103,7 +103,7 @@ export default ((userOpts?: Partial<Options>) => {
         >
         <polyline points="6 9 12 15 18 9"></polyline>
         </svg> 
-            <h3>{opts.title ?? i18n(cfg.locale).components.explorer.title}</h3>
+            <p>{opts.title ?? i18n(cfg.locale).components.explorer.title}</p>
       </button>
       <div id="explorer-content">
         <ul class="overflow" id="explorer-ul">

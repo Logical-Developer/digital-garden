@@ -312,10 +312,30 @@ h1.page-title img {
 
 
 div.sidebar > div.explorer{
-  h3{
+  p{
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     padding-right: 5px;
+    font-family: var(--headerFont);
+    color: var(--dark);
+    font-weight: revert;
+    font-weight: 700;
 
   }
+}
+.graph > p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: var(--headerFont);
+  color: var(--dark);
+}
+
+img.logo{
+  display: block;
+  margin: 5px 0;
+}
+
+div.page-header h1.article-title {
+  margin: 1rem 0 0;
 }
