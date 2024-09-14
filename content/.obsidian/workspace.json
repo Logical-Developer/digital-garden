@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/wordpress on ubuntu.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/wordpress on ubuntu.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/wordpress on ubuntu.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/wordpress on ubuntu.md"
+                "file": "index.md"
               }
             }
           }
@@ -149,10 +149,10 @@
   },
   "active": "864d09e06eebb4cd",
   "lastOpenFiles": [
+    "linux/wordpress on ubuntu.md",
     "asset/img/icon.svg",
     "asset/img/icon.ico",
     "linux/test.md",
-    "linux/wordpress on ubuntu.md",
     "asset/img/logo1.jpg",
     "asset/img/Screenshot_20240913_132807_Chrome.jpg",
     "asset/img",
