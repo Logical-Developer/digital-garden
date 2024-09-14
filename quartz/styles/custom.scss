@@ -62,6 +62,9 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
 div.search.mobile-only {
     padding-right: 10px !important;
 }
+div.search {
+  flex-grow: 0;
+}
  
 code { 
 	direction: ltr !important;
