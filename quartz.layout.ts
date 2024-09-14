@@ -45,14 +45,12 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.Search(),
     Component.DesktopOnly(Component.TableOfContents()),
-
-  
     
     
   ],
   right: [
     Component.DesktopOnly(Component.PageTitle()),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.Explorer(),
     Component.Graph(),
     Component.Backlinks(),
   ],

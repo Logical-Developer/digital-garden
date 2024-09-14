@@ -2,6 +2,11 @@
 
 // put your custom CSS here!
 
+@media (max-width: 1510px) {
+  .page > #quartz-body .sidebar.right .graph {
+    min-width: 300px;
+  }
+}
 
 html {
   font-family: Vazirmatn, sans-serif !important;
@@ -302,4 +307,15 @@ h1.page-title img {
   margin-top: 0;
   display: block;
   // max-width: 100px;
+}
+
+
+
+div.sidebar > div.explorer{
+  h3{
+    margin: 0;
+    font-size: 1.1rem;
+    padding-right: 5px;
+
+  }
 }
