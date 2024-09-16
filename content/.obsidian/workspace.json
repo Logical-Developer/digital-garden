@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "brain dump/blog content idea.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "brain dump/blog content idea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "brain dump/blog content idea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "brain dump/blog content idea.md"
               }
             }
           }
@@ -160,15 +160,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "26279618c4355a34",
+  "active": "6fa9a1dd7ec8f5f6",
   "lastOpenFiles": [
     "brain dump/index.md",
-    "brain dump/blog content idea.md",
     "linux/index.md",
     "linux/test.md",
     "linux/wordpress on ubuntu.md",
-    "brain dump",
     "index.md",
+    "brain dump/blog content idea.md",
+    "brain dump",
     "asset/img/icon.svg",
     "asset/img/icon.ico",
     "asset/img/logo1.jpg",
