@@ -19,6 +19,7 @@ export interface CalloutTranslation {
 export interface Translation {
   propertyDefaults: {
     title: string
+    pageTitle2: string
     description: string
   }
   components: {

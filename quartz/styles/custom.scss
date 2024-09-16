@@ -339,3 +339,24 @@ img.logo{
 div.page-header h1.article-title {
   margin: 1rem 0 0;
 }
+
+// Custom Class
+.c-inline {
+  display: inline;
+  margin: 0;
+}
+.c-h1-inline {
+  display: inline;
+  margin: 0;
+  font-size: 1.1em !important;
+}
+
+a.internal{
+  opacity: 1 !important;
+  margin: 0 !important;
+}
+a.internal svg{
+  width: 15px !important;
+  color: #227B94;
+
+}
