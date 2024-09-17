@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "14cf8a2a44084fe0",
+        "id": "080dfc3bedfbe2b7",
         "type": "tabs",
         "children": [
           {
-            "id": "26279618c4355a34",
+            "id": "dd925025c2616945",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,23 +139,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "26279618c4355a34",
+  "active": "dd925025c2616945",
   "lastOpenFiles": [
-    "brain dump/personal blogs repository.md",
-    "brain dump/blog content idea.md",
-    "brain dump/index.md",
-    "index.md",
-    "linux/index.md",
-    "linux/test.md",
+    "900 template/Note Template.md",
+    "2024-09-06.md",
     "linux/wordpress on ubuntu.md",
-    "brain dump",
-    "asset/img/icon.svg",
-    "asset/img/icon.ico",
+    "linux/test.md",
+    "linux/index.md",
+    "brain dump/personal blogs repository.md",
+    "brain dump/index.md",
+    "brain dump/blog content idea.md",
     "asset/img/logo1.jpg",
+    "asset/img/icon.svg",
+    "index.md",
+    "brain dump",
+    "asset/img/icon.ico",
     "asset/img/Screenshot_20240913_132807_Chrome.jpg",
     "asset/img",
     "asset",
-    "900 template/Note Template.md",
     "wp/wp1.md",
     "wp/index.md",
     "111.md",

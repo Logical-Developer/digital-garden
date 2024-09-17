@@ -1,6 +1,13 @@
 ---
 title: 
+aliases: 
+date: ""
 draft: true
-tags:
+status: 
+parent: 
+hierarchy: 
+image: 
+tags: 
+description:
 ---
 ...
