@@ -18,20 +18,6 @@ import { PhrasingContent } from "mdast-util-find-and-replace/lib"
 import { capitalize } from "../../util/lang"
 import { PluggableList } from "unified"
 
-// Add the isFarsi function here
-function isFarsi(text: string): boolean {
-  const farsiRange = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]/;
-  const skipChars = /[\p{Emoji_Presentation}\p{Extended_Pictographic}\s\-\[\]{}\/\\#=@!*_\u200D]/u;
-  
-  for (const char of text) {
-    if (skipChars.test(char)) {
-      continue;
-    }
-    return farsiRange.test(char);
-  }
-  return false;
-}
-
 export interface Options {
   comments: boolean
   highlight: boolean
@@ -150,9 +136,7 @@ const wikilinkImageEmbedRegex = new RegExp(
   /^(?<alt>(?!^\d*x?\d*$).*?)?(\|?\s*?(?<width>\d+)(x(?<height>\d+))?)?$/,
 )
 
-export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> | undefined> = (
-  userOpts,
-) => {
+export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>> = (userOpts) => {
   const opts = { ...defaultOptions, ...userOpts }
 
   const mdastToHtml = (ast: PhrasingContent | Paragraph) => {
@@ -277,7 +261,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
                   } else if ([".pdf"].includes(ext)) {
                     return {
                       type: "html",
-                      value: `<iframe src="${url}"></iframe>`,
+                      value: `<iframe src="${url}" class="pdf"></iframe>`,
                     }
                   } else {
                     const block = anchor
@@ -340,8 +324,8 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
             replacements.push([
               tagRegex,
               (_value: string, tag: string) => {
-                // Check if the tag only includes numbers
-                if (/^\d+$/.test(tag)) {
+                // Check if the tag only includes numbers and slashes
+                if (/^[\/\d]+$/.test(tag)) {
                   return false
                 }
 
@@ -455,15 +439,14 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
 
                 const toggleIcon = `<div class="fold-callout-icon"></div>`
 
-                // Changed the location of ${collapse ? toggleIcon : ""}
                 const titleHtml: Html = {
                   type: "html",
                   value: `<div
                   class="callout-title"
                 >
-                  ${collapse ? toggleIcon : ""}
                   <div class="callout-icon"></div>
                   <div class="callout-title-inner">${title}</div>
+                  ${collapse ? toggleIcon : ""}
                 </div>`,
                 }
 
@@ -542,27 +525,6 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
     },
     htmlPlugins() {
       const plugins: PluggableList = [rehypeRaw]
-
-      plugins.push(() => {
-        return (tree: HtmlRoot) => {
-          visit(tree, 'element', (node) => {
-            if (node.tagName === 'p' || /^h[1-6]$/.test(node.tagName)) {
-              const textContent = node.children
-                .map(child => {
-                  if (child.type === 'text') return child.value;
-                  if (child.type === 'element') return (child as Element).children.map(c => c.type === 'text' ? (c as Literal).value : '').join('');
-                  return '';
-                })
-                .join('');
-              
-              if (textContent.length > 0) {
-                node.properties = node.properties || {}
-                node.properties.dir = isFarsi(textContent) ? 'rtl' : 'ltr'
-              }
-            }
-          })
-        }
-      })
 
       if (opts.parseBlockReferences) {
         plugins.push(() => {
@@ -652,11 +614,10 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
                   // YouTube video (with optional playlist)
                   node.tagName = "iframe"
                   node.properties = {
-                    class: "external-embed",
+                    class: "external-embed youtube",
                     allow: "fullscreen",
                     frameborder: 0,
                     width: "600px",
-                    height: "350px",
                     src: playlistId
                       ? `https://www.youtube.com/embed/${videoId}?list=${playlistId}`
                       : `https://www.youtube.com/embed/${videoId}`,
@@ -665,11 +626,10 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options> 
                   // YouTube playlist only.
                   node.tagName = "iframe"
                   node.properties = {
-                    class: "external-embed",
+                    class: "external-embed youtube",
                     allow: "fullscreen",
                     frameborder: 0,
                     width: "600px",
-                    height: "350px",
                     src: `https://www.youtube.com/embed/videoseries?list=${playlistId}`,
                   }
                 }
