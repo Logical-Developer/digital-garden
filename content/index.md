@@ -3,9 +3,10 @@ title: وبلاگ خط یادگیری
 description: وبلاگ خط یادگیری، فضایی برای تبادل ایده‌ها و تجربیات در دنیای تکنولوژی هست، مطالب آن درباره نوت‌برداری با Obsidian، دیجیتال گاردن، تکنیک‌های برنامه‌نویسی و ابزارهای کاربردی است
 ---
 
-یک سایت دیگه با Obsidian <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/2023_Obsidian_logo.svg"
+
+یک سایت دیگه با **Obsidian** <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/2023_Obsidian_logo.svg"
 width="20px" height="20px" style="margin:0;">
-و Quartz <img src="https://learningline.ir/static/icon.png" width="20px" height="20px" style="margin:0;">!
+و **Quartz** <img src="https://learningline.ir/static/icon.png" width="20px" height="20px" style="margin:0;">!
 <p class="c-inline">
 به وبلاگ 
 </p>

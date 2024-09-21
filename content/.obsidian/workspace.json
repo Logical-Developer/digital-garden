@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "080dfc3bedfbe2b7",
+        "id": "250d7f4a28244bf2",
         "type": "tabs",
         "children": [
           {
-            "id": "dd925025c2616945",
+            "id": "e0ace1a38f05aef3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "brain dump/personal blogs repository.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "brain dump/personal blogs repository.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "brain dump/personal blogs repository.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "brain dump/personal blogs repository.md"
               }
             }
           }
@@ -147,19 +147,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dd925025c2616945",
+  "active": "e0ace1a38f05aef3",
   "lastOpenFiles": [
-    "900 template/Note Template.md",
-    "2024-09-06.md",
+    "www.mongard.ir.md",
+    "brain dump/personal blogs repository.md",
+    "mongard.ir.md",
+    "motamem.org",
+    "brain dump/blog content idea.md",
     "linux/wordpress on ubuntu.md",
     "linux/test.md",
     "linux/index.md",
-    "brain dump/personal blogs repository.md",
+    "55.md",
+    "index.md",
+    "900 template/Note Template.md",
+    "2024-09-06.md",
     "brain dump/index.md",
-    "brain dump/blog content idea.md",
     "asset/img/logo1.jpg",
     "asset/img/icon.svg",
-    "index.md",
     "brain dump",
     "asset/img/icon.ico",
     "asset/img/Screenshot_20240913_132807_Chrome.jpg",
@@ -176,7 +180,6 @@
     "WP/wp note list.md",
     "Linux/install.md",
     "WP",
-    "Linux",
     "learningline/Untitled/Welcome.md",
     "learningline/Untitled/Test!.md",
     "learningline/index.md"
