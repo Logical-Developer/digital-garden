@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "brain dump/personal blogs repository.md",
+                "file": "brain dump/blog content idea.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "brain dump/personal blogs repository.md",
+                "file": "brain dump/blog content idea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "brain dump/personal blogs repository.md",
+                "file": "brain dump/blog content idea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "brain dump/personal blogs repository.md"
+                "file": "brain dump/blog content idea.md"
               }
             }
           }
@@ -149,19 +149,19 @@
   },
   "active": "e0ace1a38f05aef3",
   "lastOpenFiles": [
-    "www.mongard.ir.md",
+    "brain dump/index.md",
+    "linux/index.md",
+    "linux/test.md",
+    "linux/wordpress on ubuntu.md",
     "brain dump/personal blogs repository.md",
+    "www.mongard.ir.md",
     "mongard.ir.md",
     "motamem.org",
     "brain dump/blog content idea.md",
-    "linux/wordpress on ubuntu.md",
-    "linux/test.md",
-    "linux/index.md",
     "55.md",
     "index.md",
     "900 template/Note Template.md",
     "2024-09-06.md",
-    "brain dump/index.md",
     "asset/img/logo1.jpg",
     "asset/img/icon.svg",
     "brain dump",
