@@ -7,7 +7,6 @@ import { ExplorerNode, FileNode, Options } from "./ExplorerNode"
 import { QuartzPluginData } from "../plugins/vfile"
 import { classNames } from "../util/lang"
 import { i18n } from "../i18n"
-import { VNode } from "preact"
 
 // Options interface defined in `ExplorerNode` to avoid circular dependency
 const defaultOptions = {
@@ -45,7 +44,6 @@ export default ((userOpts?: Partial<Options>) => {
   // memoized
   let fileTree: FileNode
   let jsonTree: string
-  let component: VNode
   let lastBuildId: string = ""
 
   function constructFileTree(allFiles: QuartzPluginData[]) {
