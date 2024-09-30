@@ -22,7 +22,8 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "900 template/Note Template.md"
+    "900 template/Note Template.md",
+    "900 template/LEFT - LTR.md"
   ],
   "startup_templates": [
     "900 template/Note Template.md"

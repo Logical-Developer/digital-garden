@@ -312,9 +312,12 @@ h1.page-title img {
 
 
 div.sidebar div.explorer{
-  p{
+
+  overflow-y: unset;
+
+  p, li{
     margin: 0;
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding-right: 5px;
     font-family: var(--headerFont);
     color: var(--dark);
@@ -322,6 +325,7 @@ div.sidebar div.explorer{
     font-weight: 700;
 
   }
+
 }
 .graph p {
   margin: 0;

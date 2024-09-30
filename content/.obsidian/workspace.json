@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "250d7f4a28244bf2",
+        "id": "3c9e7aac9f1ec6d1",
         "type": "tabs",
         "children": [
           {
-            "id": "e0ace1a38f05aef3",
+            "id": "0d4d872fa72e8910",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "brain dump/blog content idea.md",
+                "file": "windows/NSIS ERROR.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "brain dump/blog content idea.md",
+                "file": "windows/NSIS ERROR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "brain dump/blog content idea.md",
+                "file": "windows/NSIS ERROR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "brain dump/blog content idea.md"
+                "file": "windows/NSIS ERROR.md"
               }
             }
           }
@@ -147,20 +147,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e0ace1a38f05aef3",
+  "active": "0d4d872fa72e8910",
   "lastOpenFiles": [
-    "brain dump/index.md",
-    "linux/index.md",
-    "linux/test.md",
+    "900 template/LEFT - LTR.md",
+    "windows/NSIS ERROR.md",
+    "index.md",
+    "900 template/Note Template.md",
     "linux/wordpress on ubuntu.md",
+    "2024-09-30.md",
+    "linux/test.md",
+    "windows/index.md",
+    "linux/index.md",
+    "windows",
+    "brain dump/blog content idea.md",
+    "brain dump/index.md",
     "brain dump/personal blogs repository.md",
     "www.mongard.ir.md",
     "mongard.ir.md",
     "motamem.org",
-    "brain dump/blog content idea.md",
     "55.md",
-    "index.md",
-    "900 template/Note Template.md",
     "2024-09-06.md",
     "asset/img/logo1.jpg",
     "asset/img/icon.svg",
@@ -179,7 +184,6 @@
     "WP/index.md",
     "WP/wp note list.md",
     "Linux/install.md",
-    "WP",
     "learningline/Untitled/Welcome.md",
     "learningline/Untitled/Test!.md",
     "learningline/index.md"
